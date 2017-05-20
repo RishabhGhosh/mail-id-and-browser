@@ -31,7 +31,7 @@ public class AlertMail {
             Session session = Session.getDefaultInstance(props, null);
  
             Store store = session.getStore("imaps");
-            store.connect("smtp.gmail.com", "dhrumilsoni89@gmail.com", "Royality_don");
+            store.connect("smtp.gmail.com", "yyyyyy@gmail.com", "xxxxxxxxxxxxxxxxx");
  
             Folder inbox = store.getFolder("inbox");
             inbox.open(Folder.READ_ONLY);
